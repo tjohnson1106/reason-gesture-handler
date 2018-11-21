@@ -6,7 +6,8 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "build": "bsb -make-world -clean-world",
-    "watch": "bsb -make-world -clean-world -w"
+    "watch": "bsb -make-world -clean-world -w",
+    "ios": "react-native run-ios"
   },
   "dependencies": {
     "bs-react-native": "^0.10.0",
